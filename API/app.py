@@ -19,3 +19,9 @@ def get_superheroes():
 def get_superheroesM():
     rows = ["ironman", "thor"]
     return rows
+
+/*no da*/
+@app.get("/cursos")
+def get_cursos():
+    rows = ["python", "java", "sql"]
+    return rows
